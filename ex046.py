@@ -4,7 +4,7 @@ para o estouro de fogos de artifício, indo de 10 até 0, com uma pausa de 1 seg
 from  time import sleep
 print('PREPARE-SE PARA A CONTAGEM REGRESSIVA!!')
 sleep(1)
-for c in range(10, 0,-1):
+for c in range(10, -1,-1):
     sleep(1)
     print(c)
 sleep(1)
