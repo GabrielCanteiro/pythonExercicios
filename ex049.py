@@ -8,4 +8,4 @@ tabuada = 0
 for c in range(1,11):
     tabuada += 1
     resultado = n * tabuada
-    print('{} x {} = {}'.format(n, tabuada, resultado))
+    print('{} x {:2} = {}'.format(n, tabuada, resultado))
